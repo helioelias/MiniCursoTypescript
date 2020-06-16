@@ -57,3 +57,4 @@ let message1 = "mensagem";
 window.addEventListener("click", (e) => {
    console.log(e.target);
 })
+
