@@ -50,3 +50,10 @@ let cart: object;
 cart = {
     key: "fi"
 };
+
+//Type Inference
+let message1 = "mensagem";
+
+window.addEventListener("click", (e) => {
+   console.log(e.target);
+})
