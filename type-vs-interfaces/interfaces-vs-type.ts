@@ -1,8 +1,7 @@
 interface GameCollection extends Game, DLC {}
 
 //implements
-
-class CreateGame implements GameCollection {}
+//class CreateGame implements GameCollection {}
 
 //declarar funcao
 interface getSimilars {
@@ -10,12 +9,12 @@ interface getSimilars {
 };
 
 // =================== Diferenças =================== //
-iterface ID extends number {}
+interface ID extends Number {};
 
 // não consigo definir Tuplas na iterface
 interface Tuple {
-    0: number;
-    1: number;
+    0: number,
+    1: number
 }
 
 [1, 2, 3, 4, ""] as Tuple;

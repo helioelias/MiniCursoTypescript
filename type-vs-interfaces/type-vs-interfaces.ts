@@ -15,7 +15,11 @@ type GameCollectionT = GameT & DLCT & { content: boolean};
 
 //implements
 
-class CreateGameT implements GameCollectionT {}
+class CreateGameT implements GameCollectionT {
+    title = "titulo";
+    extra = "Extra";
+    content = true;
+}
 
 //declarar função
 

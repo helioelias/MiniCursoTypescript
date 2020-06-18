@@ -1,16 +1,6 @@
 "use strict";
-//implements
-var CreateGame = /** @class */ (function () {
-    function CreateGame() {
-    }
-    return CreateGame;
-}());
 ;
-// =================== Diferenças =================== //
-iterface;
-ID;
-number;
-{ }
+;
 [1, 2, 3, 4, ""];
 var $ = {
     a: "bla",

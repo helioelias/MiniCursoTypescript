@@ -3,6 +3,9 @@
 //implements
 var CreateGameT = /** @class */ (function () {
     function CreateGameT() {
+        this.title = "titulo";
+        this.extra = "Extra";
+        this.content = true;
     }
     return CreateGameT;
 }());
