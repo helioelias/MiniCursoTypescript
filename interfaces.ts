@@ -41,13 +41,19 @@ const leftbehind: DLC = {
 console.log(leftbehind);
 
 class CreateGame implements Game {
+  id : number | string;
   title: string;
   description: string;
   genre: string;
-
-  constructor(t: string, d:string, g:string){
+  
+  constructor(id:number, t: string, d:string, g:string){
+      this.id = id;
       this.title = t;
       this.description = d;
       this.genre = g;
   }
 }
+
+let cg = new CreateGame(2, "Red Dead", "This a action game", "Action");
+
+console.log(cg);

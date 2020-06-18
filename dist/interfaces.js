@@ -24,10 +24,13 @@ var leftbehind = {
 };
 console.log(leftbehind);
 var CreateGame = /** @class */ (function () {
-    function CreateGame(t, d, g) {
+    function CreateGame(id, t, d, g) {
+        this.id = id;
         this.title = t;
         this.description = d;
         this.genre = g;
     }
     return CreateGame;
 }());
+var cg = new CreateGame(2, "Red Dead", "This a action game", "Action");
+console.log(cg);
